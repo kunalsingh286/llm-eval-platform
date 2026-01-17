@@ -118,3 +118,10 @@ This project demonstrates how to build **reliable, testable, and production-safe
 - [x] Model-agnostic inference layer
 - [x] Open-source LLM integration via Ollama
 - [x] Reproducible run configurations
+
+**Phase 3 — Evaluation Framework**
+- [x] Faithfulness evaluation
+- [x] Relevance evaluation
+- [x] Structured format validation
+- [x] Offline, deterministic scoring
+
