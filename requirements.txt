@@ -1,2 +1,4 @@
 # Phase 0: intentionally empty
 # Dependencies will be added phase-by-phase
+requests
+pydantic

@@ -114,5 +114,7 @@ This project demonstrates how to build **reliable, testable, and production-safe
 - [x] Prompt versioning with metadata
 - [x] Dataset immutability guarantees
 
-Next:
-- Phase 2: LLM inference engine (Ollama)
+**Phase 2 — LLM Inference Engine**
+- [x] Model-agnostic inference layer
+- [x] Open-source LLM integration via Ollama
+- [x] Reproducible run configurations
