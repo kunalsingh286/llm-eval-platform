@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+
+# MLflow
+mlruns/
+
+# Data artifacts
+runs/output/
+runs/results/
+
+# OS
+.DS_Store
