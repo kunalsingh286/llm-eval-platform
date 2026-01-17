@@ -139,3 +139,8 @@ This project demonstrates how to build **reliable, testable, and production-safe
 - [x] Streamlit-based evaluation dashboard
 - [x] Aggregate and per-sample metric visualization
 - [x] Regression policy transparency
+
+**Phase 7 — CI/CD Gating**
+- [x] GitHub Actions regression pipeline
+- [x] Automatic quality gates on pull requests
+- [x] FAIL blocks merge, PASS allows deployment

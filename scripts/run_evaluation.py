@@ -16,7 +16,7 @@ from tracking.mlflow_logger import MLflowLogger
 
 
 # -------------------------------------------------
-# Data loaders
+# Loaders
 # -------------------------------------------------
 def load_outputs():
     path = ROOT / "runs" / "output" / "baseline_outputs_v1.json"
@@ -90,7 +90,9 @@ def main():
     aggregate_metrics = aggregate_scores(results)
 
     # ---------------- Regression ----------------
-    # NOTE: For now baseline == candidate (control test)
+    # NOTE:
+    # For now baseline == candidate.
+    # In future: load baseline from persisted MLflow run / DB.
     baseline_metrics = aggregate_metrics
     candidate_metrics = aggregate_metrics
 
@@ -132,6 +134,12 @@ def main():
 
     for detail in regression.details:
         print("⚠️", detail)
+
+    # ---------------- CI gate ----------------
+    if regression.status == "FAIL":
+        raise SystemExit(
+            "❌ Regression detected. CI gate blocked deployment."
+        )
 
 
 if __name__ == "__main__":
