@@ -125,3 +125,7 @@ This project demonstrates how to build **reliable, testable, and production-safe
 - [x] Structured format validation
 - [x] Offline, deterministic scoring
 
+**Phase 4 — Experiment Tracking**
+- [x] MLflow-based experiment tracking
+- [x] Metric aggregation and logging
+- [x] Artifact-level auditability

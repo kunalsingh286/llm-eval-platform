@@ -2,3 +2,4 @@
 # Dependencies will be added phase-by-phase
 requests
 pydantic
+mlflow
