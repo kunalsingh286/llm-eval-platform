@@ -100,4 +100,19 @@ LLM systems increasingly power critical workflows.
 Without regression testing, failures are discovered by users.
 
 This project demonstrates how to build **reliable, testable, and production-safe LLM platforms**.
+
 # llm-eval-platform
+
+## 🧪 Project Status
+
+**Phase 0 — Foundation**
+- [x] Repository scaffold
+- [x] Project vision & principles
+
+**Phase 1 — Golden Dataset & Prompt Versioning**
+- [x] Golden dataset with deterministic test cases
+- [x] Prompt versioning with metadata
+- [x] Dataset immutability guarantees
+
+Next:
+- Phase 2: LLM inference engine (Ollama)

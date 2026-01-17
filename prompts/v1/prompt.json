@@ -1,0 +1,9 @@
+{
+  "prompt_version": "v1",
+  "description": "Baseline prompt for golden dataset evaluation",
+  "rules": [
+    "Be concise",
+    "Do not hallucinate",
+    "Respect output format strictly"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "dataset_version": "v1",
+  "description": "Golden dataset for deterministic LLM evaluation",
+  "samples": [
+    {
+      "id": "fact_001",
+      "input": "What is the capital of France?",
+      "expected_output": "Paris is the capital of France.",
+      "metadata": {
+        "domain": "geography",
+        "difficulty": "easy",
+        "eval_focus": ["faithfulness", "relevance"]
+      }
+    },
+    {
+      "id": "reasoning_001",
+      "input": "Explain why regular regression testing is difficult for large language models.",
+      "expected_output": "Regression testing is difficult for large language models because their outputs are probabilistic, sensitive to prompt changes, and can degrade silently without explicit failures.",
+      "metadata": {
+        "domain": "llm-engineering",
+        "difficulty": "medium",
+        "eval_focus": ["faithfulness", "relevance"]
+      }
+    },
+    {
+      "id": "format_001",
+      "input": "Return a JSON object with fields name and age for a user named Alice who is 30 years old.",
+      "expected_output": {
+        "name": "Alice",
+        "age": 30
+      },
+      "metadata": {
+        "domain": "structured-output",
+        "difficulty": "easy",
+        "eval_focus": ["format_accuracy"]
+      }
+    }
+  ]
+}
