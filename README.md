@@ -129,3 +129,13 @@ This project demonstrates how to build **reliable, testable, and production-safe
 - [x] MLflow-based experiment tracking
 - [x] Metric aggregation and logging
 - [x] Artifact-level auditability
+
+**Phase 5 — Regression Detection**
+- [x] Baseline vs candidate comparison
+- [x] Threshold-based FAIL / WARN / PASS decisions
+- [x] Policy-driven regression rules
+
+**Phase 6 — Dashboard**
+- [x] Streamlit-based evaluation dashboard
+- [x] Aggregate and per-sample metric visualization
+- [x] Regression policy transparency

@@ -3,3 +3,5 @@
 requests
 pydantic
 mlflow
+streamlit
+pandas
